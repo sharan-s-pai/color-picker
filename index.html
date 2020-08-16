@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Color Picker</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1
+        class="display-3 text-center bg-primary pb-2"
+        style="border-radius: 0.25rem;"
+      >
+        Color Picker
+      </h1>
+      <div style="margin-left: 350px;" id="paint">
+        <div class="outer pick" id="outer-1"></div>
+        <div class="outer pick" id="outer-2"></div>
+        <div class="outer pick" id="outer-3"></div>
+
+        <div id="mid-aw-1" class="mwrap pick">
+          <div class="mwrap-2 pick" id="mid-aw-2">
+            <div id="mid-a" class="content-mid pick"></div>
+          </div>
+        </div>
+        <div id="mid-bw-1" class="mwrap pick">
+          <div class="mwrap-2 pick" id="mid-bw-2">
+            <div id="mid-b" class="content-mid pick"></div>
+          </div>
+        </div>
+        <div id="mid-cw-1" class="mwrap pick">
+          <div class="mwrap-2 pick" id="mid-cw-2">
+            <div id="mid-c" class="content-mid pick"></div>
+          </div>
+        </div>
+        <div class="inner-w pick">
+          <div class="inner-w-2 pick">
+            <div class="inner-w-3 pick">
+              <div class="inner pick"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h6 id="trial-count" class="pr-3"></h6>
+      <button
+        type="submit"
+        class="btn btn-danger float-right m-3"
+        class="form-control"
+        id="start"
+      >
+        Start
+      </button>
+      <button
+        type="submit"
+        class="btn btn-danger float-right m-3"
+        class="form-control"
+        id="stop"
+      >
+        Stop
+      </button>
+      <div class="form-group">
+        <form>
+          <input
+            type="text"
+            name="color"
+            id="color-picker"
+            class="form-control"
+            placeholder="Enter the color between the 3 circles"
+            pattern="^[a-zA-Z ]+"
+          />
+          <input
+            type="submit"
+            value="Submit"
+            id="submit"
+            class="btn btn-primary mt-4 mb-4"
+          />
+          <input
+            type="submit"
+            value="Next"
+            id="next"
+            class="btn btn-success mt-4 mb-4"
+          />
+          <div id="message" class="mt-4 alert text-center"></div>
+          <div style="border-radius: 0.24rem;" id="score-board"></div>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>

@@ -1,0 +1,143 @@
+/* .pick {
+  /* border-radius: 50%; */
+  /* pointer-events: none; */
+  /* position: absolute; */
+  /* margin-top: 100px;
+  margin-left: 467px; */
+
+.inner-w {
+  width: 240px;
+  height: 240px;
+  left: 467px;
+  top: 450px;
+  overflow: hidden;
+  position: absolute;
+  z-index: 20;
+  pointer-events: none;
+  border-radius: 50%;
+}
+
+.inner-w-2 {
+  width: 240px;
+  height: 240px;
+  margin-left: 0px;
+  top: 450px;
+  overflow: hidden;
+  position: static;
+  pointer-events: none;
+  border-radius: 50%;
+}
+.inner-w-3 {
+  width: 240px;
+  height: 240px;
+  margin-left: 170px;
+  top: 450px;
+  overflow: hidden;
+  position: static;
+  pointer-events: none;
+  border-radius: 50%;
+}
+
+.inner {
+  width: 240px;
+  height: 240px;
+  margin-left: -85px;
+  margin-top: 130px;
+  z-index: 20;
+  position: static;
+  pointer-events: none;
+  border-radius: 50%;
+}
+
+.mwrap {
+  width: 240px;
+  height: 240px;
+  position: absolute;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 10;
+  border-radius: 50%;
+}
+
+.mwrap-2 {
+  width: 240px;
+  height: 240px;
+  position: static;
+  margin-left: 0px;
+  margin-top: 0px;
+  overflow: hidden;
+  pointer-events: none;
+  border-radius: 50%;
+}
+
+.content-mid {
+  width: 240px;
+  height: 240px;
+  position: static;
+  pointer-events: auto;
+  border-radius: 50%;
+}
+
+#mid-aw-1 {
+  width: 240px;
+  height: 240px;
+  left: 467px;
+  top: 450px;
+}
+#mid-a {
+  width: 240px;
+  height: 240px;
+  margin-left: 170px;
+  margin-top: 0px;
+
+}
+#mid-bw-1 {
+  width: 240px;
+  height: 240px;
+  left: 637px;
+  top: 450px;
+}
+#mid-b {
+  width: 240px;
+  height: 240px;
+  margin-left: -85px;
+  margin-top: 130px;
+}
+#mid-cw-1 {
+  width: 240px;
+  height: 240px;
+  left: 552px;
+  top: 580px;
+}
+#mid-c {
+  width: 240px;
+  height: 240px;
+  margin-left: -85px;
+  margin-top: -130px;
+}
+#outer-1 {
+  left: 467px;
+  top: 450px;
+}
+#outer-2 {
+  left: 637px;
+  top: 450px;
+}
+#outer-3 {
+  left: 552px;
+  top: 581px;
+}
+.outer {
+  width: 240px;
+  height: 240px;
+  z-index: 1;
+  pointer-events: auto;
+  position: absolute;
+  border-radius: 50%;
+}
+
+#trial-count{
+  float: left;
+  position: absolute;
+}
+
